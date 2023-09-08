@@ -1,0 +1,16 @@
+.conteudo{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.who{
+    max-width: 30vw;
+    padding: 100px;
+}
+section img{
+    max-width: 30vw;
+    height: ;
+}
