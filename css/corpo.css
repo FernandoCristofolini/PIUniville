@@ -1,16 +1,60 @@
-.conteudo{
+.page{
     color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
+    text-align: justify;
 }
 .who{
     max-width: 30vw;
     padding: 100px;
+    line-height: 30px;
+    font-size: 30px;
 }
 section img{
     max-width: 30vw;
-    height: ;
+}
+.textbec{
+    font-family: 'Abril Fatface';
+    font-weight: bold;
+    line-height: 70px;
+    font-size: 70px;
+    margin: auto;
+}
+.aaa{
+    background: rgb(243, 190, 190);
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(91, 50, 50);
+    transition: transform 1s;
+}
+.aaa:hover{
+    transform: scale(2);
+}
+.cardslayer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100vw;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    background:#1E1E1E;
+    padding: 20px;    
+    margin: 25px;
+    align-items: center;
+    width: 307px;
+    border-radius: 30px;
+    height: 380px;
+    transition: transform 0.2s;
+}
+.card:hover{
+    transform: translate(
+    -7px,-7px
+  );
+    box-shadow: 7px 7px 7px #6a6a6a;
 }
