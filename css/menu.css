@@ -1,44 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-.menu{
+.header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    color: #5b3232;
     background: rgb(243, 190, 190);
     width: 100vw;
     height: 10vh;
-    align-items: center;
-    font-size: 1.2rem;
+    gap: 15px;
+    top: 0;
+}
+.header a{
+    text-decoration: none;
+    color: #5b3232;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.header a:hover{
+    color: rgb(243, 190, 190);
+    background: #5b3232;
 }
 .imenu{
-    font-family: 'Syne';
-}
-.imenu a{
-    margin: 0 10px;
-    padding: 10px;
-    border-radius: 5px;
-    transition: 0.2s;
-}
-.imenu:hover a{
-    filter: blur(0.5px);
-}
-.imenu a:hover{
-    filter: blur(0px);
-    background: rgb(91, 50, 50);
-    color: rgb(243, 190, 190);
-}
-.contato{
-    color: aliceblue;
-}
-.menualign{
-    width: 60px;
-}
-.backCont{
-    background: rgb(91, 50, 50);
-    border-radius: 50px;
-    width: 20px;
-    padding: 10px;
-    transition: width 0.4s;
-}
-.backCont:hover{
-    width: 60px;
-}
+    padding: 6px;
+    transition: 0.1s;
+} 
