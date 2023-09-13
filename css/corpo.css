@@ -93,12 +93,14 @@
     color: aliceblue;
     min-width: 200px;
     min-height: 345px;
+    z-index:1;
 }
 .card:hover{
     transform: translate(
     -7px,-7px
   );
     box-shadow: 7px 7px 7px #311b1b;
+    z-index:1;
 }
 .card :nth-child(1) img{
     width: 5vw;
