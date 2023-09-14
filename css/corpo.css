@@ -177,6 +177,7 @@
     color: #5b3232;
     width: 70vw;
     height: 25vw;
+    min-height: 23vw;
     font-family: 'Abril Fatface';
     background: white;
     border-radius: 30px;
