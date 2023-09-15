@@ -168,6 +168,7 @@
 }
 .contact h2{
     font-size: 3rem;
+    text-shadow: 2px 2px 2px #3a2020;
 }
 .contact p{
     margin: 0px 10vw;
@@ -200,10 +201,14 @@
     align-items: center;
     border-radius: 10px;
     transition: 0.3s;
-
+    border: none;
 }
 .btnctt:hover{
     filter: brightness(135%);
+    transform: translate(
+    -2px,-2px
+  );
+  box-shadow: 2px 2px 0px black;
 }
 .btnctt p{
     font-family: 'Syne';
