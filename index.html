@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title>PIUniville</title>
@@ -11,66 +12,91 @@
     <link rel="stylesheet" href=".\css\style.css">
     <link rel="stylesheet" href=".\css\menu.css">
 </head>
-<body> 
+
+<body>
     <div class="header">
-            <a href="#Home"><div class="imenu">Home</div></a>
-            <a href="#servicos"><div class="imenu">Serviços</div></a>
-            <a href="#galeria"><div class="imenu">Galeria</div></a>
-            <a href="#blog"><div class="imenu">Blog</div></a>
-            <a href="#contato"><div class="imenu">Contato</div></a>
-        </div>
+        <a href="#Home">
+            <div class="imenu">Home</div>
+        </a>
+        <a href="#servicos">
+            <div class="imenu">Serviços</div>
+        </a>
+        <a href="#galeria">
+            <div class="imenu">Galeria</div>
+        </a>
+        <a href="#blog">
+            <div class="imenu">Blog</div>
+        </a>
+        <a href="#contato">
+            <div class="imenu">Contato</div>
+        </a>
+    </div>
     <article class="conteudo">
         <section class="home cont" id="Home">
             <div class="who">
                 <p class="pwho">Olá</p>
                 <p>SOMOS O <br>BELEZA & CIA</p>
-                <p class="pwho">Somos um refúgio de beleza 
-                    e bem-estar dedicado a realçar sua aparência 
-                    e elevar sua confiança. 
-                    <br>Com uma equipe apaixonada de especialistas em 
-                    beleza, estamos comprometidos em proporcionar uma 
-                    experiência excepcional, onde cada cliente se sente 
+                <p class="pwho">Somos um refúgio de beleza
+                    e bem-estar dedicado a realçar sua aparência
+                    e elevar sua confiança.
+                    <br>Com uma equipe apaixonada de especialistas em
+                    beleza, estamos comprometidos em proporcionar uma
+                    experiência excepcional, onde cada cliente se sente
                     mimado e rejuvenescido.
                 </p>
                 <div><a>Sobre nós ></a></div>
             </div>
-                <img src=".\images\muieinicial.png" alt="Minha Figura">
+            <img src=".\images\muieinicial.png" alt="Minha Figura">
         </section>
         <section class="servicos cont2" id="servicos">
             <div class="cardslayer">
                 <div class="card">
                     <div><img src=".\images\cabelo.png"></div>
-                    <div><h1>Cabelo</h1></div>
+                    <div>
+                        <h1>Cabelo</h1>
+                    </div>
                     <br>
-                    <div><p>
-                        Lorem ipsum dolor sit amet. Et cumque corrupti quo omnis 
-                        dignissimos nam optio deleniti At adipisci recusandae non 
-                        dicta quis eum dolor fuga non repudiandae fugit
-                    </p></div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet. Et cumque corrupti quo omnis
+                            dignissimos nam optio deleniti At adipisci recusandae non
+                            dicta quis eum dolor fuga non repudiandae fugit
+                        </p>
+                    </div>
                 </div>
                 <div class="card">
                     <div><img src=".\images\unha.png"></div>
-                    <div><h1>Unhas</h1></div>
+                    <div>
+                        <h1>Unhas</h1>
+                    </div>
                     <br>
-                    <div><p>
-                        Lorem ipsum dolor sit amet. Et cumque corrupti quo omnis 
-                        dignissimos nam optio deleniti At adipisci recusandae non 
-                        dicta quis eum dolor fuga non repudiandae fugit
-                    </p></div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet. Et cumque corrupti quo omnis
+                            dignissimos nam optio deleniti At adipisci recusandae non
+                            dicta quis eum dolor fuga non repudiandae fugit
+                        </p>
+                    </div>
                 </div>
                 <div class="card">
                     <div><img src=".\images\botox.png"></div>
-                    <div><h1>Estética</h1></div>
+                    <div>
+                        <h1>Estética</h1>
+                    </div>
                     <br>
-                    <div><p>
-                        Lorem ipsum dolor sit amet. Et cumque corrupti quo omnis 
-                        dignissimos nam optio deleniti At adipisci recusandae non 
-                        dicta quis eum dolor fuga non repudiandae fugit
-                    </p></div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet. Et cumque corrupti quo omnis
+                            dignissimos nam optio deleniti At adipisci recusandae non
+                            dicta quis eum dolor fuga non repudiandae fugit
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <span class="gallery"><h1 id="galeria">GALERIA</h1></span>
+        <span class="gallery">
+            <h1 id="galeria">GALERIA</h1>
+        </span>
         <section class="galeria cont">
             <div class="pai">
                 <div class="filho">
@@ -84,22 +110,31 @@
                 </div>
             </div>
         </section>
-        <section class="blog cont" id="blog"><h1>Blog</h1></section>
+        <section class="blog cont" id="blog">
+            <h1>Blog</h1>
+        </section>
         <section class="contato cont" id="contato">
             <div class="contact">
                 <h2>CONTATO</h2>
-                <p>Assine nosso boletim informativo para novas postagens no blog, dicas e novas fotos. Vamos nos manter atualizados!</p>
-                <div class="email">
-                    <input type="email" name="" id="" placeholder="Seu endereço de e-mail">
-                    <a href="#contato"><div class="btnctt">Inscrever</div></a>
+                <p>Assine nosso boletim informativo para novas postagens no blog, dicas e novas fotos. Vamos nos manter
+                    atualizados!</p>
+                <div >
+                    <form onsubmit="sendemail()"class="email">
+                        <input type="email" name="" id="emailinput" placeholder="Seu endereço de e-mail" required>
+                        <button type="submit" class="btnctt" href="#contato"><p style="font-family: 'Syne';">Inscrever</p></button>
+                    </form>
                 </div>
             </div>
         </section>
     </article>
-    <footer class="rodape vidro" id="rod">
-        <a>Contato</a>
-        <a>Sobre</a>
-        <a>Banana</a>
-        <a>Biscoito</a>
+    <footer class="rodape" id="rod">
     </footer>
 </body>
+<script>
+    function sendemail() {
+        document.getElementById("emailinput").value = '';
+        alert("Enviou mano");
+    }
+</script>
+
+</html>
