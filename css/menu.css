@@ -18,10 +18,17 @@
     color: #5b3232;
     border-radius: 5px;
     font-size: 1.5rem;
+    transition: transform 0.2s;
 }
 .header a:hover{
     color: rgb(243, 190, 190);
     background: #5b3232;
+}
+.header a:hover{
+    transform: translate(
+    -1px,-1px
+  );
+  box-shadow: 2px 2px 2px #381f1f;
 }
 .imenu{
     padding: 6px;
