@@ -7,7 +7,7 @@
     align-items: center;
 }
 .cont2{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,15 +18,6 @@
     padding: 10px;
     border: solid 1px white;
     border-radius: 10px;
-}
-.rodape{
-    width: 100%;
-    height: 15vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background: linear-gradient(#5b3232,black, black, #020101, #000000, black);
 }
 .who{
     color: aliceblue;
@@ -158,6 +149,12 @@
 .filho2 div:nth-child(2){
     width: 30%;
 }
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+}
 .contact{
     text-align: center;
     color: #5b3232;
@@ -253,4 +250,32 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
+}
+.avaliacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1E1E1E;
+    width: 50vw;
+    padding: 2vw;
+    border-radius: 1%;
+}
+.box img{
+    width: 20vw;
+}
+.textbox{
+    color: aliceblue;
+    font-family: Syne;
+    width: 25vw;
+    font-size: 23px;
+    font-weight: 100;
+}
+.textbox :nth-child(1){
+    font-weight: 1000;
+    font-size: 36px;
 }
