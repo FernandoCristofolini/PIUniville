@@ -11,26 +11,40 @@
     <link rel="stylesheet" href=".\css\corpo.css">
     <link rel="stylesheet" href=".\css\style.css">
     <link rel="stylesheet" href=".\css\menu.css">
+    <link rel="stylesheet" href=".\css\footer.css">
 </head>
 
 <body>
+
+    <!-- Menu -->
     <div class="header">
-        <a href="#Home">
-            <div class="imenu">Home</div>
-        </a>
-        <a href="#servicos">
-            <div class="imenu">Serviços</div>
-        </a>
-        <a href="#galeria">
-            <div class="imenu">Galeria</div>
-        </a>
-        <a href="#blog">
-            <div class="imenu">Blog</div>
-        </a>
-        <a href="#contato">
-            <div class="imenu">Contato</div>
-        </a>
+        <div class="head-logo">
+            <img src=".\images\logo.webp">
+        </div>
+        <div class="head-align">
+            <a href="#Home">
+                <div class="imenu">Home</div>
+            </a>
+            <a href="#servicos">
+                <div class="imenu">Serviços</div>
+            </a>
+            <a href="#galeria">
+                <div class="imenu">Galeria</div>
+            </a>
+            <a href="#blog">
+                <div class="imenu">Blog</div>
+            </a>
+            <a href="#contato">
+                <div class="imenu">Contato</div>
+            </a>
+        </div>
+        <div style="width: 100px;">
+
+        </div>
+        
     </div>
+
+    <!-- Apresentação B&C -->
     <article class="conteudo">
         <section class="home cont" id="Home">
             <div class="who">
@@ -44,10 +58,12 @@
                     experiência excepcional, onde cada cliente se sente
                     mimado e rejuvenescido.
                 </p>
-                <div><a>Sobre nós ></a></div>
+                <div><a href="#footer">Sobre nós ></a></div>
             </div>
             <img src=".\images\muieinicial.png" alt="Minha Figura">
         </section>
+
+        <!-- Cards dos serviços oferecidos -->
         <section class="servicos cont2" id="servicos">
             <div class="cardslayer">
                 <div class="card">
@@ -97,6 +113,7 @@
         <span class="gallery">
             <h1 id="galeria">GALERIA</h1>
         </span>
+        <!-- Galeria de imagens -->
         <section class="galeria cont">
             <div class="pai">
                 <div class="filho">
@@ -108,52 +125,78 @@
                     <div><img src=".\images\img3.png"></div>
                     <div><img src=".\images\img4.webp"></div>
                 </div>
-            </div>
+        </div>
         </section>
-        <section class="blog cont" id="blog">
-            <div class="paiblog">
-                <div class="cardblog">
-                    <div class="cardblogimg">
-                        <img src=".\images\blogimg1.png">
-                    </div>
-                    <span class="cardtext">
-                        <h2>
-                            Reasons Business needs Agency.
-                        </h2>
+
+        <!-- Avaliações -->
+        <div style="height: 40vw;">
+            <span class="gallery">
+                <h1 style="margin-bottom: 5vw;">AVALIAÇÕES</h1>
+            </span>
+            <section class="avaliacao">
+                <div class="box">
+                    <div class="textbox">
+                        <p>Renatinha Soares</p>
                         <p>
-                            Design Club is a digital agency specialized in ecommerce. We build scalable, high-end web shops. 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec accumsan condimentum massa ac malesuada, consectetur 
+                            adipiscing elit.<br>Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor incididunt.
                         </p>
-                    </span>
-                </div>
-                <div class="cardblog">
-                    <div class="cardblogimg">
-                        <img src=".\images\blogimg2.png">
                     </div>
-                    <span class="cardtext">
-                        <h2>
-                            Maximizing your marketing budget
-                        </h2>
-                        <p>
-                            Design Club is a digital agency specialized in ecommerce. We build scalable, high-end web shops. 
-                        </p>
-                    </span>
+                    <img src=".\images\imgava.png"/>
                 </div>
-                <div class="cardblog">
-                    <div class="cardblogimg">
-                        <img src=".\images\blogimg3.png">
+            </section>
+        </div>
+            <span id="blog" class="gallery">
+                <h1 >BLOG</h1>
+            </span>
+            <!-- Cards do blog -->
+            <section class="blog" >
+                <div class="paiblog">
+                    <div class="cardblog">
+                        <div class="cardblogimg">
+                            <img src=".\images\blogimg1.png">
+                        </div>
+                        <span class="cardtext">
+                            <h2>
+                                Reasons Business needs Agency.
+                            </h2>
+                            <p>
+                                Design Club is a digital agency specialized in ecommerce. We build scalable, high-end web shops. 
+                            </p>
+                        </span>
                     </div>
-                    <span class="cardtext">
-                        <h2>
-                            how a creative agency can help?
-                        </h2>
-                        <p>
-                            Design Club is a digital agency specialized in ecommerce. We build scalable, high-end web shops. 
-                        </p>
-                    </span>
+                    <div class="cardblog">
+                        <div class="cardblogimg">
+                            <img src=".\images\blogimg2.png">
+                        </div>
+                        <span class="cardtext">
+                            <h2>
+                                Maximizing your marketing budget
+                            </h2>
+                            <p>
+                                Design Club is a digital agency specialized in ecommerce. We build scalable, high-end web shops. 
+                            </p>
+                        </span>
+                    </div>
+                    <div class="cardblog">
+                        <div class="cardblogimg">
+                            <img src=".\images\blogimg3.png">
+                        </div>
+                        <span class="cardtext">
+                            <h2>
+                                how a creative agency can help?
+                            </h2>
+                            <p>
+                                Design Club is a digital agency specialized in ecommerce. We build scalable, high-end web shops. 
+                            </p>
+                        </span>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="contato cont" id="contato">
+            </section>
+        <!-- Inscrição para receber dicas -->
+        <section class="contato" id="contato">
             <div class="contact">
                 <h2>CONTATO</h2>
                 <p>Assine nosso boletim informativo para novas postagens no blog, dicas e novas fotos. Vamos nos manter
@@ -167,7 +210,41 @@
             </div>
         </section>
     </article>
-    <footer class="rodape" id="rod">
+
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Espaço para logo -->
+            <div class="footer-item footer-logo">
+                <img src=".\images\logo.webp">
+            </div>
+            
+            <!-- Contatos de email -->
+            <div class="footer-item">
+                <a href="mailto:fernandocristofolini017@email.com">fernandocristofolini017@email.com</a>
+                <a href="mailto:cissa@gmail.com">cissa@gmail.com</a>
+                <a href="mailto:Jefferson@gmail.com">Jefferson@gmail.com</a>
+            </div>
+
+            <!-- Contatos de telefone -->
+            <div class="footer-item">
+                <a href="https:\\wa.me\5547996154394">+55 47 99615-4394</a>
+                <a href="https:\\wa.me\5547989120998">+55 47 98912-0998</a>
+                <a href="https:\\wa.me\5547984424549">+55 47 98442-4549</a>
+            </div>
+
+            <!-- Sobre nós -->
+            <div class="footer-item" id="footer">
+                <a target="_blank" href="https://www.linkedin.com/in/fernando-cristofolini-a68405218/">Fernando Cristofolini</a>
+                <a target="_blank" href="https://www.linkedin.com/in/cecilia-valim/">Cecilia Valim</a>
+            </div>
+        </div>
+
+        <!-- Créditos -->
+        <div class="credit">
+            Desenvolvido por Fernando Cristofolini<br>
+            Cecília Valim<br>
+            Jefferson
+        </div>
     </footer>
 </body>
 <script>
