@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@media screen and (max-width: 6000px)
+{
 .header{
     display: flex;
     justify-content: space-evenly;
@@ -43,3 +45,34 @@
     padding: 6px;
     transition: 0.1s;
 } 
+}
+ 
+/* --------- Configuração mobile ---------*/
+@media screen and (max-width: 1024px)
+{
+.header{
+    margin-top: 90vh;
+    position:fixed;
+    justify-content: space-around;
+    border-radius: 10px 10px 0px 0px;
+    border-top: solid 1px black;
+    -webkit-box-shadow: 1px -20px 31px 4px rgba(91,50,50,1);
+    -moz-box-shadow: 1px -20px 31px 4px rgba(91,50,50,1);
+    box-shadow: 1px -20px 31px 4px rgba(91,50,50,1);
+}
+.head-logo{
+    display: none;
+}
+.head-align{
+    margin-left: 5vw;
+    width: 100vw;
+    justify-content: space-around;
+}
+.header a{
+    text-decoration: none;
+    color: #5b3232;
+    border-radius: 5px;
+    font-size: 3rem;
+    transition: transform 0.2s;
+}
+}
